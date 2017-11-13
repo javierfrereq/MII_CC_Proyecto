@@ -14,7 +14,7 @@ Para realizar la instalación debemos escribir la siguiente línea de comandos.
 
 ```Apt-get install chef-solo ```
 
-curl -L https://www.opscode.com/chef/install.sh | bash
+```curl -L https://www.opscode.com/chef/install.sh | bash```
 
 Ya instalado podemos verificar que se ha instalado correctamente ingresando la siguiente línea de comando 
 
