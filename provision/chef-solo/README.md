@@ -1,4 +1,4 @@
-HITO 2
+## HITO 2 
 
 En la  Ruta /home/javier/chef/cookbooks
 1.- Crear un directorio "owncloud" 
