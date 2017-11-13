@@ -11,11 +11,15 @@ Para conectarse a la máquina virtual podemos usar la aplicación “Putty”
 ## Ejercicio 1
 ### 3.- Instalar chef-solo 
 Para realizar la instalación debemos escribir la siguiente línea de comandos.
-** Apt-get install chef-solo **
+
+```Apt-get install chef-solo ```
+
 curl -L https://www.opscode.com/chef/install.sh | bash
 
 Ya instalado podemos verificar que se ha instalado correctamente ingresando la siguiente línea de comando 
-** Chef-solo --v **
+
+```Chef-solo --version``` 
+
 ![imagen 1](https://user-images.githubusercontent.com/32844919/32694308-095a7cd2-c73d-11e7-8eb8-93d02d22a3ac.JPG)
 
 ## Ejercicio 2
@@ -24,7 +28,9 @@ Para crear una receta debemos instalar un editor de texto con el que te sientas 
  * Instalar el nginx debemos escribir la siguiente línea de comando 
 
  * Creamos el directorio donde se incluirá la receta “default.rb”
-** mkdir -p ~/chef/cookbooks/nginx/recipes **
+
+```mkdir -p ~/chef/cookbooks/nginx/recipes``` 
+
  * Creamos la receta en el fichero “default.rb” 
 ``` 
 package 'nginx'
@@ -52,7 +58,7 @@ end
   json_attribs "/home/javier/chef/node.json"
 ``` 
  * Escribimos el comando 
-** sudo chef-sole –c chef/solo.rb
+``` sudo chef-sole –c chef/solo.rb```
 ![imagen 14](https://user-images.githubusercontent.com/32844919/32694331-739fd862-c73d-11e7-9720-1e68f3a7989a.JPG)
 
 ## Ejercicio 3 
