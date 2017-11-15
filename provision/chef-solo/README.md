@@ -2,7 +2,8 @@
 
 ### Se procedera a crea un servidor de datos en la nube con OwnCloud
 
-![owncloud_logo](https://user-images.githubusercontent.com/32844919/32865364-141a2220-ca63-11e7-9cc6-751aaf2a367e.png)
+![owncloud_logo](https://user-images.githubusercontent.com/32844919/32866305-5af6f106-ca67-11e7-93e3-6b1e5e02fa0a.png)
+
 
 Owncloud es una aplicación de software libre que te permitirá crear un servidor de archivos en la nube, en el cuál podrás tener un almacén de imágenes, documentos o incluso tu música, datos a los que tendrás acceso desde cualquier lugar con internet.También podemos encontrar herramientas como editor de texto, reproductor o calendario.
 Cuenta con aplicación para Android, iOS y cliente de escritorio para Linux, Windows y Mac OS X.
@@ -50,3 +51,5 @@ sudo chef-solo -c ~/chef/solo.rb
 ```
 
 ![imagen 3](https://user-images.githubusercontent.com/32844919/32694373-762a0278-c73e-11e7-93ad-a2dfc3eb744a.JPG)
+
+Podemos visualizar que se provisiono correctamente los servicios que necesitamos
