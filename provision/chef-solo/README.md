@@ -1,5 +1,35 @@
 ## HITO 2 
 
+### Se procedera a crea un servidor de datos en la nube con OwnCloud
+
+![owncloud_logo](https://user-images.githubusercontent.com/32844919/32865364-141a2220-ca63-11e7-9cc6-751aaf2a367e.png)
+
+Owncloud es una aplicación de software libre que te permitirá crear un servidor de archivos en la nube, en el cuál podrás tener un almacén de imágenes, documentos o incluso tu música, datos a los que tendrás acceso desde cualquier lugar con internet.También podemos encontrar herramientas como editor de texto, reproductor o calendario.
+Cuenta con aplicación para Android, iOS y cliente de escritorio para Linux, Windows y Mac OS X.
+
+Los requerimientos son los siguientes:
+
+Sistema operativo / Distribución	
+* Ubuntu 16.04, Debian 7 and 8, SUSE Linux Enterprise Server 12 and 12 SP1, Red Hat Enterprise Linux/Centos 6.5 and 7
+Base de datos	
+* MySQL or MariaDB 5.5+, Oracle 11g, PostgreSQL, & SQLite
+Servidor web	
+* Apache 2.4 with mod_php
+Versión de PHP	
+* PHP (5.6+ or 7.0+)
+
+
+Se creará una receta para provisionar el servidor Owncloud 
+
+Con ayuda de la receta, lo primero que haremos será actualizar el sistema y la lista de repositorios.
+
+Se provisiona con los siguientes servicios:
+
+* php 
+* Apache2
+* Sql-server
+
+
 En la  Ruta /home/javer/chef/cookbooks
 
 * 1.- Crear un directorio "owncloud" 
