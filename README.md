@@ -18,3 +18,9 @@ Servidor web
 * Apache 2.4 with mod_php
 Versión de PHP	
 * PHP (5.6+ or 7.0+)
+
+### El provisionamiento del servidor lo puedes encontrar en la carpeta "provision"
+
+* Su documentacion esta en:
+
+https://github.com/javierfrereq/MII_CC_Proyecto/blob/master/provision/chef-solo/README.md
