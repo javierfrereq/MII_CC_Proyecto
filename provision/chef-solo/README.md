@@ -1,4 +1,4 @@
-# HITO 2 
+# Aprovisionamiento
 
 Se creará una receta para provisionar el servidor Owncloud 
 
