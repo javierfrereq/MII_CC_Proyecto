@@ -2,6 +2,10 @@
 
 Se creará una receta para provisionar el servidor Owncloud 
 
+## Por que usar Chef-solo?
+Nos sirve para implementar automáticamente la aplicación de las topologías a la nube cuando se construye.
+Chef es una herramienta de la categoría de manejo de configuracion (configuration management).
+
 ## Instalación
 
 ### Instalar el cliente chef-solo 
