@@ -21,6 +21,5 @@ Versión de PHP
 
 ### El provisionamiento del servidor lo puedes encontrar en la carpeta "provision"
 
-* Su documentacion esta en:
-
-https://github.com/javierfrereq/MII_CC_Proyecto/blob/master/provision/chef-solo/README.md
+* Su documentación esta en:
+[Documentación](https://github.com/javierfrereq/MII_CC_Proyecto/blob/master/provision/chef-solo/README.md)
